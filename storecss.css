@@ -1,0 +1,131 @@
+.product{
+    margin: 60px 400px;
+    padding: 10px;
+    display: flex;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    border: 1px solid black;
+    line-height: 1;
+    text-align: justify;
+    animation: appear 2s ease-in-out;
+}
+/*
+.product img{
+    width: 300px;
+    height: auto;
+}
+*/
+
+.prodbutt {
+    margin-top: 35px;
+    padding: 10px;
+    background: linear-gradient(to bottom, black, black);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+    float: right;
+
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.prodbutt:hover{
+    background: linear-gradient(to bottom,black, gray);
+    box-shadow: 0 0 12px black;
+}
+
+.cartbutt{
+    margin-right: 400px;
+    padding: 10px 40px;
+    background: linear-gradient(to bottom, blue, blue);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+    float: right;
+    animation: appear 2s ease-in-out;
+
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.cartbutt:hover{
+    background: linear-gradient(to bottom,blue, cyan);
+    box-shadow: 0 0 12px black;
+}
+
+.producttext {
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.product h2{
+    font-size: 40px;
+    display: inline-block;
+}
+
+.price {
+    font-size: 30px;
+}
+
+.rate{
+    color:orange;
+}
+
+body {
+
+    margin: 0;
+    padding: 0;
+}
+
+.search-container {
+    text-align: left;
+    margin-top: 60px ;
+    margin-left: 400px;
+    display:inline-block;
+    animation: appear 2s ease-in-out;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.searchbutt {
+    padding: 10px;
+    background: linear-gradient(to bottom, black, black);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+}
+
+.searchbutt:hover{
+    background: linear-gradient(to bottom, black, gray);
+    box-shadow: 0 0 12px black;
+}
+
+.dropdown{
+    /* float: left; */
+    margin-top: 10px;
+    margin-left: 400px;
+    font-size: 110%;
+    animation: appear 2s ease-in-out;
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  hr {
+    border: 1px solid lightgrey;
+  }

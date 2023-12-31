@@ -1,0 +1,151 @@
+
+/*
+.introimg {
+    
+    position: absolute;
+    left: 300px;
+    top: 330px;
+    margin: 0;
+
+    width: 35%;
+    height: auto;
+}
+*/
+
+.intro {
+
+    background-image: url('images/telescope-intro.jpg');
+    background-size: 200%;
+    background-position: 60% 50% ;
+    padding: 310px;
+    margin-top: 50px;
+    animation: mymove 2s ease-in-out;
+    opacity: 1; 
+}
+
+@keyframes mymove {
+    from {background-position: 55% 50%; opacity: 0; }
+    to {background-position: 60% 50% ; opacity: 1; }
+  }
+
+.introtxt {
+
+    color: white;
+
+    position:absolute;
+    top: 400px;
+    left: 880px;
+    
+    width: 500px;
+    height: 50px;
+    padding: 10px;
+    margin: 0;
+
+    opacity: 0.6;
+
+    text-align: right;
+    font-size: 50px;
+    text-shadow: 0 0 8px black;
+}
+
+
+
+.slideshow-container {
+    position: relative;
+
+    max-width: 500px;
+    max-height: max-content;
+
+    margin-left: 900px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.slide {
+    display: none;
+}
+
+img {
+    width: 100%;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out; /* Adjust the animation duration */
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.takemethere h2 {
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 950px;
+    margin-top: 200px;
+    font-size: 300%;
+}
+
+.takemethere button {
+
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 950px;
+    margin-top: 340px;
+
+    font-size: 110%;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, black, black);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+}
+
+.takemethere button:hover {
+    background: linear-gradient(to bottom, black, gray);
+    box-shadow: 0 0 12px black;
+}
+
+.sales {
+    background-image: url('images/stars-bg.jpg');
+    background-size: 200%;
+    background-position: 60% 50% ;
+    padding: 130px;
+    margin-top: 50px;
+    animation: mymove 2s ease-in-out;
+    opacity: 1; 
+    margin-bottom: 50px;
+
+    animation: yes 30s infinite;
+}
+
+@keyframes yes {
+    50% {
+        background-position: 30% 50% ;
+    }
+    100% {
+        background-position: 60% 50% ;
+    }
+}
+
+.salestxt {
+
+    color: white;
+
+    position: relative;
+
+    text-align: center;
+    
+    /*width: 500px;
+    height: 50px; */
+
+    font-size: 50px;
+    text-shadow: 0 0 8px black;
+}

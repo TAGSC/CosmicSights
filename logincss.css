@@ -1,0 +1,59 @@
+.login-background {
+    margin-top: 50px;
+    background-image: url('images/login-view.jpg');
+    background-size: 120%;
+    background-position: 70% 60% ;
+    animation: loginmove 2s ease-in-out;
+    opacity: 1;
+    padding: 70px;
+}
+
+@keyframes loginmove {
+    from {background-position: 60% 60%; opacity: 0; }
+    to {background-position: 70% 60% ; opacity: 1; }
+  }
+
+.login-container {
+    margin-top: 90px;
+    margin-bottom: 80px;
+    margin-left: 1100px;
+    margin-right: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginbutt {
+    margin-top: 5px;
+    padding: 10px;
+    background: linear-gradient(to bottom, blue, blue);
+    border: 2px solid white;
+    color: #fff;
+    font-size: 110%;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+}
+
+.loginbutt:hover {
+    background: linear-gradient(to bottom, blue, cyan);
+    box-shadow: 0 0 12px black;
+}

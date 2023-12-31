@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="storecss.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>CosmicSights | Store</title>
+</head>
+<body>
+    <header class="top-banner">
+        <h1>Welcome to <br> CosmicSights</h1>
+        <nav>
+            <ul>
+                
+                <li><a href="index.html"> <button>Home</button> </a></li>
+                <li><a href="store.html"> <button>Store</button> </a></li>
+                <li><a href="about.html"> <button>About</button> </a></li>
+                <li><a href="login.html"> <button>Login</button> </a></li>
+
+            </ul>
+        </nav>
+        <img class="logo" src="images/telescope-logo.png" alt="telescope logo">
+    </header>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button class="searchbutt"onclick="performSearch()">Search</button>
+    </div>
+
+    <script src="searchbar.js"></script>
+    
+<div class="dropdown" >
+    <label for="category">Filter: </label>
+    <select name="category" id="category">
+    <option value="none">None</option>
+    <option value="atoz">A-Z</option>
+    <option value="ratings">Ratings</option>
+    <option value="lowprice">Least expensive</option>
+    <option value="highprice">Most expensive</option>
+    </select>
+</div>
+
+<a href="cart.html"><button class="cartbutt">Cart</button></a>
+
+    <div class="product">
+
+        <img src="images/telescope-model2.jpg" alt="telescope1" height="300" width="auto">
+
+        <div class="producttext">
+        <h2>InfinityView</h2> <button class="prodbutt" onclick="addToCart()">Add to cart</button> 
+        
+        <hr>
+        <p class="price">$89.99</p>
+        <p class="description">Unleash your inner explorer and embark on a 
+            celestial odyssey with the InfinityView. Elevate your stargazing, 
+            capture the extraordinary, and let the universe unfold before your eyes. 
+            Where curiosity meets technology, CosmicSights invites you to reach 
+            for the stars and make every moment under the night sky an unforgettable adventure.</p>
+        <p class="rate"> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <img src="images/telescope-model3.jpg" alt="telescope1" height="300" width="auto">
+
+        <div class="producttext">
+        <h2>CelestialVista</h2> <button class="prodbutt" onclick="addToCart()">Add to cart</button> 
+        
+        <hr>
+        <p class="price">$99.99</p>
+        <p class="description">Equipped with cutting-edge technology, the CelestialVista boasts 
+            pure light focal accuracy to ensure that every observation is a journey into the 
+            heart of the universe. Immerse yourself in the beauty of distant galaxies, 
+            capture the intricate details of lunar landscapes, and witness the dance 
+            of planets with unprecedented clarity.</p>
+        <p class="rate"> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i></p>
+        </div>
+
+    </div>
+
+    <div class="product">
+
+        <img src="images/telescope-model4.jpg" alt="telescope1" height="300" width="auto">
+
+        <div class="producttext">
+        <h2>AstroMaster</h2> <button class="prodbutt" onclick="addToCart()">Add to cart</button> 
+        
+        <hr>
+        <p class="price">$199.99</p>
+        <p class="description">Experience the magic of the night sky 
+            like never before - the AstroMaster is not just a telescope; 
+            it's a portal to the mysteries of the universe. Whether you're 
+            igniting a passion for astronomy or adding to your 
+            collection of celestial tools, this telescope promises 
+            an unparalleled journey through the cosmos. AstroMaster invites you to reach for the stars.</p>
+        <p class="rate"> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i> <i class="fa fa-star"> </i></p>
+        </div>
+
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-email">
+            <h3>Contact Us</h3>
+            <a href="mailto:cosmicsights@gmail.com"><button>cosmicsights@gmail.com</button></a>
+        </div>
+
+        <br>
+
+        <div class="social-media">
+            <h3>Follow Us</h3>
+            <ul>
+                <li><a href="https://www.facebook.com/profile.php?id=100074149494017" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UC9X67G5lGSgfzmzLSNSO_Yw" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i></a></li>
+                <li><a href="https://twitter.com/tagsccrab" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

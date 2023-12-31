@@ -1,0 +1,81 @@
+.aboutpage{
+    line-height: 2;
+    margin-top: 50px;
+    margin-left: 560px;
+    margin-right: 560px;
+    text-align: justify;
+    opacity: 1;
+    animation: appear 2s ease-in-out;
+}
+
+.aboutpage h2{
+    text-align: center;
+    color:white; 
+    text-shadow: 0 0 8px rgb(114, 101, 192);
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(42, 21, 90);
+    background-image: linear-gradient(blue, blueviolet);
+    padding: 10px;
+    font-size: 200%;
+    border-radius: 70px;
+}
+
+.aboutpage h3 {
+    text-align: center;
+    color:darkblue;
+    font-size: 150%;
+}
+
+.aboutpage p {
+    font-size: 120%;
+}
+
+.pledge {
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 50px;
+    margin-left: 560px;
+    margin-right: 560px;
+
+    opacity: 1;
+    animation: appear 2s ease-in-out;
+}
+
+.pledge p{
+    font-size: 120%;
+}
+
+.mission h2 {
+    margin-top: 50px;
+    
+    font-size: 200%;
+    background-image: linear-gradient(blue, blueviolet);
+    padding: 10px;
+    border-radius: 70px;
+
+    color:white; 
+    text-shadow: 0 0 8px rgb(114, 101, 192);
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(42, 21, 90);
+}
+
+.vision h2 {
+    font-size: 200%;
+    background-image: linear-gradient(blue, blueviolet);
+    padding: 10px;
+    border-radius: 70px;
+
+    color:white; 
+    text-shadow: 0 0 8px rgb(114, 101, 192);
+    border: 5px;
+    border-style: ridge;
+    border-color: rgb(42, 21, 90);
+}
+
+@keyframes appear {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+

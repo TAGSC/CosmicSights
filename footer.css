@@ -1,0 +1,55 @@
+.site-footer {
+    background-image: linear-gradient(to bottom, blueviolet, blue);
+    padding: 20px;
+    text-align: center;
+    font-size: 110%;
+    color: white
+}
+
+.footer-email {
+    margin-bottom: 20px;
+}
+
+.footer-email button {
+    font-size: 110%;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, blue, blue);
+    border: 2px solid white;
+    color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 8px black;
+    cursor: pointer;
+}
+
+.footer-email button:hover {
+    background: linear-gradient(to bottom, blue, cyan);
+    box-shadow: 0 0 12px black;
+}
+.social-media h3 {
+    margin-bottom: 10px;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    display: inline-block;
+    padding: 10px;
+    font-size: 200%;
+}
+
+.social-media i {
+    color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.social-media i:hover {
+    color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
